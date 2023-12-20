@@ -11,7 +11,7 @@ const StartGame = ({ toggle }) => {
             <h1>
                 DICE GAME
             </h1>
-            <Button onClick={toggle}>Play Now</Button>
+            <Button  onClick={toggle}>Play Now</Button>
         </div>
     </Container>
   )
