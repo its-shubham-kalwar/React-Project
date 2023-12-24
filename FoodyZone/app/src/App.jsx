@@ -3,7 +3,7 @@ import styled from "styled-components";
 import SearchResult from "./components/SearchResult/SearchResult";
 
 export const BASE_URL = "http://localhost:9000";
-
+ 
 const App = () => {
   const [data, setData] = useState(null);
   const [filteredData, setFilteredData] = useState(null);
